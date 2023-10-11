@@ -4,6 +4,9 @@
 #include "StringData.h"
 using namespace std;
 
+
+// Daniel Lopez UFID#86074319 Class:27130
+
 int linear_Search(std::vector<std::string> container, string search){
     for(int i = 0; i < container.size(); i++){
         if(container[i] == search){
